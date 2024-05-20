@@ -11,7 +11,7 @@ const router = createHashRouter([
     element: <Layout />,
     children: [
       {
-        path: Routes.Root,
+        path: Routes.Home,
         element: <HomePage />,
       },
     ],

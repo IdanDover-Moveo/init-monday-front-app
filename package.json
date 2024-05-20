@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "npm run stop && concurrently \"vite\" \"npm run expose\"",
     "build": "tsc && vite build",
-    "expose": "mapps tunnel:create -p 8080",
+    "expose": "mapps tunnel:create -p 3000",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "stop": "kill-port 8080 && kill-port 4049 && kill-port 4040"
+    "stop": "kill-port 3000"
   },
   "dependencies": {
     "@mondaycom/apps-sdk": "^3.0.7",

@@ -1,11 +1,11 @@
 import { Routes } from '../../types/Routes';
-import { S_errorLayout, S_p, S_returnLink } from './ErrorStyles';
+import { S_errorLayout, S_p_text, S_Link_return } from './ErrorStyles';
 
 const ErrorPage: React.FC = () => {
   return (
     <S_errorLayout>
-      <S_p>It seems like you are not in the right place</S_p>
-      <S_returnLink to={Routes.Root}>&rarr; Go back</S_returnLink>
+      <S_p_text>It seems like you are not in the right place</S_p_text>
+      <S_Link_return to={Routes.Root}>&rarr; Go back</S_Link_return>
     </S_errorLayout>
   );
 };

@@ -15,11 +15,11 @@ export const S_errorLayout = styled.div`
   }
 `;
 
-export const S_p = styled.p`
+export const S_p_text = styled.p`
   font-weight: bold;
 `;
 
-export const S_returnLink = styled(Link)`
+export const S_Link_return = styled(Link)`
   text-decoration: none;
   color: var(--text-color);
 `;
